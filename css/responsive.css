@@ -191,6 +191,7 @@
         visibility: hidden;
     }
     i.fas.fa-search {
+        width: auto;
         visibility: visible;
         display: flex;
         justify-content: center;

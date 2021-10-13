@@ -103,6 +103,7 @@ a {
 
 /*Searchbar*/
 i.fas.fa-search {
+    width: 0;
     visibility: hidden;
 }
 .formbutton__buttontext .fa-search{
