@@ -1,0 +1,216 @@
+@media screen and (max-width: 1440px) {
+    html {
+        width: 100%;
+    }
+
+    .accommodations-container {
+        width: 100%;
+        height: 100%;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .accommodations {
+        width: 100%;
+        height: 70%;
+    }
+
+    .acc-card {
+        width: 28%;
+    }
+
+    .accommodationsPopular {
+        height: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .popcontain {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .pop-card {
+        width: 30%;
+        height: 155px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .side {
+        font-size: 14px;
+    }
+    .footerlinks{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .popcontain{
+        flex-direction: column;
+    }
+    .pop-card{
+        width: 90%;
+    }
+    .popimg img {
+        width: 250px;
+    }
+    .side {
+        font-size: 18px;
+    }
+    .cards-container{
+        gap: 35px;
+    }
+    .acc-card{
+        width: 40%;
+    }
+    .activities__gallery {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 5%;
+    }
+    .act-card1 {
+        order: 1;
+        width: 45%;
+        height: 250px;
+    }
+    .act-card2-3 {
+        margin: 25px 0;
+        order: 2;
+        width: 45%;
+    }
+    .act-card2 {
+        width: 100%;
+        height: 250px;
+    }
+    .act-card3 {
+        margin-top: 25px;
+        width: 100%;
+        height: 250px;
+    }
+    .act-card5-6 {
+        margin: 25px 0;
+        order: 3;
+        width: 45%;
+    }
+    .act-card5 {
+        margin-bottom: 25px;
+        width: 100%;
+        height: 250px;
+    }
+    .act-card6 {
+        width: 100%;
+        height: 250px;
+    }
+    .act-card4 {
+        order: 1;
+        width: 45%;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .acc-card {
+        width: 80%;
+        height: 225px;
+    }
+    .card__img img {
+        object-fit: cover;
+        width: 100%;
+        height: 135px;
+        border-radius: 16px 16px 0 0;
+    }
+    .activities__gallery{
+        row-gap: 25px
+    }
+    .act-card1 {
+        width: 100%;
+    }
+    .act-card2-3 {
+        margin: 0;
+        width: 100%;
+    }
+    .act-card2 {
+        width: 100%;
+    }
+    .act-card3 {
+        width: 100%;
+    }
+    .act-card5-6 {
+        margin: 0 0 25px 0;
+        width: 100%;
+    }
+    .act-card5 {
+        width: 100%;
+    }
+    .act-card6 {
+        width: 100%;
+    }
+    .act-card4 {
+        width: 100%;
+    }
+    .footer-content {
+        flex-direction: column;
+        margin-top: 0;
+        padding: 25px 100px;
+    }
+    .footerlinks {
+        margin-bottom: 25px;
+    }
+      
+}
+
+@media screen and (max-width: 599px) {
+    .side {
+        font-size: 15px;
+    }
+    .header__logo-Navbar {
+        flex-direction: column;        
+    }
+    .header__Navbar {
+        width: 100vw;
+    }
+    .navlink {
+        width: 50%;
+    }
+    .navlink:hover {
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
+    }
+    .navlink--Active {
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid #0065FC;
+        color: #0065FC;
+    }
+    p.hide {
+        visibility: hidden;
+    }
+    i.fas.fa-search {
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+    .search__formbutton {
+        display: flex;
+        justify-content: center;
+    }
+    button.formbutton__button {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .popimg img {
+        width: 130px;
+    }
+    .side {
+        font-size: 12px;
+    }  
+}
