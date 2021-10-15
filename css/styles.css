@@ -63,6 +63,7 @@ a {
 }
 
 .header__Navbar {
+    text-align: center;
     width: 289px;
     display: flex;
     justify-content: space-between;
@@ -85,11 +86,6 @@ a {
     color: #0065FC;
 }
 
-.navlink--Active {
-    border-top: 3px solid #0065FC;
-    color: #0065FC;
-}
-
 /*Title & subTitle*/
 .header__title {
     margin-bottom: 10px;
@@ -102,6 +98,10 @@ a {
 }
 
 /*Searchbar*/
+.header__searchbar {
+    overflow:hidden;
+}
+
 i.fas.fa-search {
     width: 0;
     visibility: hidden;
@@ -486,7 +486,9 @@ p.side__text {
     text-decoration: none;
     margin-bottom: 10px;
 }
-
+.footerlinks{
+    width: 100%;
+}
 .footerlinks a:hover {
     text-decoration: underline;
 }

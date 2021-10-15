@@ -43,7 +43,7 @@
         font-size: 14px;
     }
     .footerlinks{
-        font-size: 12px;
+        font-size: 15px;
     }
 }
 
@@ -113,7 +113,7 @@
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
     .acc-card {
         width: 80%;
         height: 225px;
